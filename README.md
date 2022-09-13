@@ -1,25 +1,10 @@
-# Narrativa
+Descrição do Desafio
 
- - Produto:
-    - Os produtos são vendidos por uma única plataforma online. Contudo, estes podem ter vendedores distintos (terceiros).
-    - Cada produto possuí um fornecedor.
-    - Um ou mais produtos podem compor um pedido.
+O esquema deverá ser adicionado a um repositório do Github para futura avaliação do desafio de projeto. Adicione ao Readme a descrição do projeto conceitual para fornecer o contexto sobre seu esquema.
+Objetivo:
 
- - Cliente:
-    - O cliente pode se cadastrar no site com seu CPF ou CNPJ.
-    - O endereço do cliente irá determinar o valor do frete.
-    - Um cliente pode comprar mais de um pedido. Este tem um período de carência para devolução do produto.
+Refine o modelo apresentado acrescentando os seguintes pontos:
 
- - Pedido:
-    - Os pedidos são criados por clientes e possuem informações de compra, endereço e status de entrega.
-    - Um produto ou mais compõem o pedido.
-    - O pedido pode ser cancelado.
-
- - Fornecedor:
-    - Pensando junto com a professora.
-    - Possuíra CPF ou CNPJ.
-    - Razão Social
-
- - Estoque:
-    - Necessário informar a quantidade dos produtos em estoque.
-    - Informar local. (?)
+    Cliente PJ e PF – Uma conta pode ser PJ ou PF, mas não pode ter as duas informações;
+    Pagamento – Pode ter cadastrado mais de uma forma de pagamento;
+    Entrega – Possui status e código de rastreio;
